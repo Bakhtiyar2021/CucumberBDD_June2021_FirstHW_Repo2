@@ -5,4 +5,7 @@ Maven, Java, TestNG, Git, Jerkins, CucumberBDD, JVM Report, etc.
 Ctrl+A
 Ctrl+Alt+L
 
+#How to execute test in CMD
+mvn verify -Denv=qa -Dbrowser=ch -Dcucumber.filter.tags="@login"
+
 #
